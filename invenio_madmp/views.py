@@ -88,7 +88,7 @@ def query_db(query, **kwargs):
 
 
 @blueprint.route('/upload', methods=('GET', 'POST'))
-@login_required
+# @login_required
 def create():
     """
     Renders the upload form and saves the file and its metadata respectively.
